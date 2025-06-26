@@ -2,41 +2,6 @@ These are various python scripts to look at astronomical events. It uses the sky
 
 
 
-## astro_events.py
-
-Help Command
-```{}
-python astro_events.py --help
-```
-
-Help Output
-
-```{}
-usage: astro_events.py [-h] city
-
-Next Sun or Moon Rise/Set Info
-
-positional arguments:
-  city        City name (e.g. 'Cincinnati, OH')
-
-options:
-  -h, --help  show this help message and exit
-```
-
-
-Example Command
-```{}
-python astro_events.py "Cincinnati"
-```
-Example Output
-```{}
-Resolved location: Cincinnati, Hamilton County, Ohio, United States
-City: Cincinnati
-Next event: Sunset of the Sun
-Time: 2025-06-26 21:06:30 EDT
-Azimuth: 301.20° (NW)
-Altitude at event: -0.57°
-```
 
 ## current_planet_position.py
 
@@ -259,6 +224,41 @@ Winter Solstice  2025-12-21 | Azimuth: 143.29° | Altitude:  17.93° | Dir: SE
 
 
 
+## sun_moon_events.py
+
+Help Command
+```{}
+python sun_moon_events.py --help
+```
+
+Help Output
+
+```{}
+usage: sun_moon_events.py [-h] city
+
+Next Sun or Moon Rise/Set Info
+
+positional arguments:
+  city        City name (e.g. 'Cincinnati, OH')
+
+options:
+  -h, --help  show this help message and exit
+```
+
+
+Example Command
+```{}
+python sun_moon_events.py "Cincinnati"
+```
+Example Output
+```{}
+Resolved location: Cincinnati, Hamilton County, Ohio, United States
+City: Cincinnati
+Next event: Sunset of the Sun
+Time: 2025-06-26 21:06:30 EDT
+Azimuth: 301.20° (NW)
+Altitude at event: -0.57°
+```
 
 
 
